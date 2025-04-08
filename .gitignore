@@ -1,0 +1,52 @@
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+/apps/host/node_modules/
+/apps/remote/node_modules/
+
+# Build output
+dist/
+build/
+*.out
+
+# Vite cache
+.vite/
+apps/host/.vite/
+apps/remote/.vite/
+
+# TypeScript
+*.tsbuildinfo
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# MacOS
+.DS_Store
+
+# Linux
+*.swp
+
+# Temporary files
+*.tmp
+*.temp
+
+# Coverage reports
+coverage/
+
+# Generated files
+/public/
