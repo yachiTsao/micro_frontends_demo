@@ -1,10 +1,9 @@
 <template>
   <v-app>
-    <div>test</div>
     <Header />
-    <!-- <v-main>
+    <v-main>
       <router-view />
-    </v-main> -->
+    </v-main>
   </v-app>
 </template>
 
