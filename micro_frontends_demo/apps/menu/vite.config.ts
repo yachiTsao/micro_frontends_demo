@@ -7,12 +7,19 @@ export default defineConfig({
   plugins: [
     vue(),
     federation({
-    remotes: {
-      remote: 'http://localhost:4173/assets/remoteEntry.js',
-      remoteMenu: 'http://localhost:4174/assets/remoteEntry.js',
-    },
-    shared: ['vue', 'pinia', 'vue-router']
-  })],
+      name: 'remoteMenu',
+      filename: 'remoteEntry.js',
+      exposes: {
+        './UserMenu': './src/components/UserMenu.vue'
+      },
+      shared: ['vue', 'pinia', 'vue-router']
+    })
+  ],
+  build: {
+    target: 'esnext',
+    minify: false,
+    cssCodeSplit: false
+  },
   resolve: {
     alias: {
       '@': path.resolve(__dirname, 'src'),
@@ -20,6 +27,6 @@ export default defineConfig({
     },
   },
   server: {
-    port: 8080, // 可根據需要修改
+    port: 8081, // 可根據需要修改
   },
 });

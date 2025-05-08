@@ -20,7 +20,7 @@ userStore.setUser({
   name: "Ava Tsao",
 });
 const RemoteComponent = defineAsyncComponent(
-  () => import("remote/RemoteComponent"),
+  () => import("remote/RemoteComponent")
 );
 </script>
 <style lang="scss" scoped>
