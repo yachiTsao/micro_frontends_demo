@@ -18,14 +18,23 @@
     </template>
     <v-sheet color="#627D97">
       <v-list-item>
-        <a href="/user-setting" class="menu-link">User Setting</a>
+        <a href="/user-setting" class="menu-link">
+          <v-icon>mdi-account-cog-outline</v-icon>
+          <span class="ps-2">User Setting</span>
+        </a>
       </v-list-item>
       <v-list-item>
-        <a href="/notice" class="menu-link">Notice</a>
+        <a href="/notice" class="menu-link">
+          <v-icon>mdi-bell-outline</v-icon>
+          <span class="ps-2">Notice</span>
+        </a>
       </v-list-item>
       <v-divider></v-divider>
       <v-list-item>
-        <a href="/" class="menu-link">Logout</a>
+        <a href="/" class="menu-link">
+          <v-icon>mdi-logout-variant</v-icon>
+          <span class="ps-2">Logout</span>
+        </a>
       </v-list-item>
     </v-sheet>
   </v-menu>

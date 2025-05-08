@@ -1,7 +1,7 @@
 <template>
   <v-toolbar color="#003A70" height="60">
     <v-toolbar-title class="v-text-h3">
-      <span class="font-weight-bold">My App</span>
+      <span class="font-weight-bold">Micro Frontends</span>
     </v-toolbar-title>
     <UserMenu />
   </v-toolbar>
