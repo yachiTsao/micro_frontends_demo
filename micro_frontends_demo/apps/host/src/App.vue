@@ -13,7 +13,7 @@
 <script lang="ts" setup>
 import Header from "./components/Header.vue";
 import { defineAsyncComponent } from "vue";
-import { useUserStore } from "@shared/store/user";
+import { useUserStore } from "@micro-frontend/shared";
 const userStore = useUserStore();
 userStore.setUser({
   id: "E0873",

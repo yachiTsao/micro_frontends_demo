@@ -18,7 +18,8 @@
 </template>
 
 <script lang="ts" setup>
-import { useUserStore } from "@shared/store/user";
+import { useUserStore } from "@micro-frontend/shared";
+
 const userStore = useUserStore();
 </script>
 
