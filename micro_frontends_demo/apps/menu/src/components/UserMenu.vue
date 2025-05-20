@@ -42,7 +42,7 @@
 
 <script lang="ts" setup>
 import { ref, watch } from "vue";
-import { useUserStore } from "@shared/store/user";
+import { useUserStore } from '@micro-frontend/shared'
 
 const userStore = useUserStore();
 const localMenuOpen = ref(true); // 本地菜單開關狀態
