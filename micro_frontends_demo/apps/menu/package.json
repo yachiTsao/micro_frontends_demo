@@ -1,7 +1,7 @@
 {
-  "name": "remote",
+  "name": "user-menu",
   "version": "1.0.0",
-  "description": "Remote micro frontend application",
+  "description": "user menu application",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

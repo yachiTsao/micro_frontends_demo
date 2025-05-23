@@ -9,7 +9,7 @@
 
 <script setup lang="ts">
 import { defineAsyncComponent } from "vue";
-const UserMenu = defineAsyncComponent(() => import("remoteMenu/UserMenu"));
+const UserMenu = defineAsyncComponent(() => import("userMenu/Component"));
 </script>
 
 <style lang="scss" scoped>

@@ -7,10 +7,10 @@ export default defineConfig({
   plugins: [
     vue(),
     federation({
-      name: 'remoteMenu',
-      filename: 'remoteEntry.js',
+      name: 'userMenu',
+      filename: 'userMenuEntry.js',
       exposes: {
-        './UserMenu': './src/components/UserMenu.vue'
+        './Component': './src/components/UserMenu.vue'
       },
       shared: ['vue', 'pinia', 'vue-router']
     })

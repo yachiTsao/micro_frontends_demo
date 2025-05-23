@@ -1,6 +1,6 @@
 <template>
   <div id="remote-app">
-    <h1>Welcome to the Remote Micro Frontend</h1>
+    <h1>Side Menu Application</h1>
   </div>
 </template>
 

@@ -8,8 +8,8 @@ export default defineConfig({
     vue(),
     federation({
     remotes: {
-      remote: 'http://localhost:4173/assets/remoteEntry.js',
-      remoteMenu: 'http://localhost:4174/assets/remoteEntry.js',
+      sideMenu: 'http://localhost:4173/assets/sideMenuEntry.js',
+      userMenu: 'http://localhost:4174/assets/userMenuEntry.js',
     },
     shared: ['vue', 'pinia', 'vue-router']
   })],
