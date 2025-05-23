@@ -1,7 +1,7 @@
 {
-  "name": "remote",
+  "name": "side-menu",
   "version": "1.0.0",
-  "description": "Remote micro frontend application",
+  "description": "side menu application",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
